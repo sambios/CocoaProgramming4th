@@ -11,7 +11,14 @@
 
 @implementation RandomController
 {
-    __weak IBOutlet NSTextField *textField;
+    IBOutlet NSTextField *textField;
+}
+
+- (void)awakeFromNib
+{
+    NSDate *now;
+    now = [NSDate date];
+    [textField setObjectValue:now];
 }
 
 - (IBAction)seed:(id)sender {

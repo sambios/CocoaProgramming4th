@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35D18AAA21152EB5008EF4C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AA921152EB5008EF4C3 /* AppDelegate.m */; };
-		35D18AAC21152EB5008EF4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D18AAB21152EB5008EF4C3 /* Assets.xcassets */; };
-		35D18AAF21152EB5008EF4C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D18AAD21152EB5008EF4C3 /* MainMenu.xib */; };
-		35D18AB221152EB5008EF4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AB121152EB5008EF4C3 /* main.m */; };
-		35D18ABB21152F2D008EF4C3 /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D18ABA21152F2D008EF4C3 /* RandomController.m */; };
+		358DF9C62115795E00A9DB3A /* Random.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = 358DF9B0211577DF00A9DB3A /* Random.entitlements */; };
+		358DF9C72115795E00A9DB3A /* RandomController.h in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AB921152F2D008EF4C3 /* RandomController.h */; };
+		358DF9C82115795E00A9DB3A /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D18ABA21152F2D008EF4C3 /* RandomController.m */; };
+		358DF9C92115795E00A9DB3A /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AA821152EB5008EF4C3 /* AppDelegate.h */; };
+		358DF9CA2115795E00A9DB3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AA921152EB5008EF4C3 /* AppDelegate.m */; };
+		358DF9CB2115795E00A9DB3A /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AAB21152EB5008EF4C3 /* Assets.xcassets */; };
+		358DF9CC2115795E00A9DB3A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AB021152EB5008EF4C3 /* Info.plist */; };
+		358DF9CD2115795E00A9DB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D18AB121152EB5008EF4C3 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35D18AA521152EB5008EF4C3 /* es01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = es01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358DF9B0211577DF00A9DB3A /* Random.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Random.entitlements; sourceTree = "<group>"; };
+		358DF9B5211578E900A9DB3A /* Random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D18AA821152EB5008EF4C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35D18AA921152EB5008EF4C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35D18AAB21152EB5008EF4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D18AAE21152EB5008EF4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		35D18AB021152EB5008EF4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D18AB121152EB5008EF4C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35D18AB321152EB5008EF4C3 /* es01.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = es01.entitlements; sourceTree = "<group>"; };
 		35D18AB921152F2D008EF4C3 /* RandomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomController.h; sourceTree = "<group>"; };
 		35D18ABA21152F2D008EF4C3 /* RandomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35D18AA221152EB5008EF4C3 /* Frameworks */ = {
+		358DF9B2211578E900A9DB3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +44,7 @@
 		35D18A9C21152EB5008EF4C3 = {
 			isa = PBXGroup;
 			children = (
-				35D18AA721152EB5008EF4C3 /* es01 */,
+				35D18AA721152EB5008EF4C3 /* Random */,
 				35D18AA621152EB5008EF4C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,14 +52,15 @@
 		35D18AA621152EB5008EF4C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35D18AA521152EB5008EF4C3 /* es01.app */,
+				358DF9B5211578E900A9DB3A /* Random.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35D18AA721152EB5008EF4C3 /* es01 */ = {
+		35D18AA721152EB5008EF4C3 /* Random */ = {
 			isa = PBXGroup;
 			children = (
+				358DF9B0211577DF00A9DB3A /* Random.entitlements */,
 				35D18AB921152F2D008EF4C3 /* RandomController.h */,
 				35D18ABA21152F2D008EF4C3 /* RandomController.m */,
 				35D18AA821152EB5008EF4C3 /* AppDelegate.h */,
@@ -65,29 +69,28 @@
 				35D18AAD21152EB5008EF4C3 /* MainMenu.xib */,
 				35D18AB021152EB5008EF4C3 /* Info.plist */,
 				35D18AB121152EB5008EF4C3 /* main.m */,
-				35D18AB321152EB5008EF4C3 /* es01.entitlements */,
 			);
-			path = es01;
+			path = Random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35D18AA421152EB5008EF4C3 /* es01 */ = {
+		358DF9B4211578E900A9DB3A /* Random */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35D18AB621152EB5008EF4C3 /* Build configuration list for PBXNativeTarget "es01" */;
+			buildConfigurationList = 358DF9C3211578EA00A9DB3A /* Build configuration list for PBXNativeTarget "Random" */;
 			buildPhases = (
-				35D18AA121152EB5008EF4C3 /* Sources */,
-				35D18AA221152EB5008EF4C3 /* Frameworks */,
-				35D18AA321152EB5008EF4C3 /* Resources */,
+				358DF9B1211578E900A9DB3A /* Sources */,
+				358DF9B2211578E900A9DB3A /* Frameworks */,
+				358DF9B3211578E900A9DB3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = es01;
-			productName = es01;
-			productReference = 35D18AA521152EB5008EF4C3 /* es01.app */;
+			name = Random;
+			productName = Random;
+			productReference = 358DF9B5211578E900A9DB3A /* Random.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,12 +102,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = hsyuan;
 				TargetAttributes = {
-					35D18AA421152EB5008EF4C3 = {
+					358DF9B4211578E900A9DB3A = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 35D18AA021152EB5008EF4C3 /* Build configuration list for PBXProject "es01" */;
+			buildConfigurationList = 35D18AA021152EB5008EF4C3 /* Build configuration list for PBXProject "Random" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,31 +120,34 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35D18AA421152EB5008EF4C3 /* es01 */,
+				358DF9B4211578E900A9DB3A /* Random */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35D18AA321152EB5008EF4C3 /* Resources */ = {
+		358DF9B3211578E900A9DB3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D18AAC21152EB5008EF4C3 /* Assets.xcassets in Resources */,
-				35D18AAF21152EB5008EF4C3 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35D18AA121152EB5008EF4C3 /* Sources */ = {
+		358DF9B1211578E900A9DB3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D18ABB21152F2D008EF4C3 /* RandomController.m in Sources */,
-				35D18AB221152EB5008EF4C3 /* main.m in Sources */,
-				35D18AAA21152EB5008EF4C3 /* AppDelegate.m in Sources */,
+				358DF9C62115795E00A9DB3A /* Random.entitlements in Sources */,
+				358DF9C72115795E00A9DB3A /* RandomController.h in Sources */,
+				358DF9C82115795E00A9DB3A /* RandomController.m in Sources */,
+				358DF9C92115795E00A9DB3A /* AppDelegate.h in Sources */,
+				358DF9CA2115795E00A9DB3A /* AppDelegate.m in Sources */,
+				358DF9CB2115795E00A9DB3A /* Assets.xcassets in Sources */,
+				358DF9CC2115795E00A9DB3A /* Info.plist in Sources */,
+				358DF9CD2115795E00A9DB3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +165,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		358DF9C4211578EA00A9DB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Random/Random.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Random/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnion.Random;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		358DF9C5211578EA00A9DB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Random/Random.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Random/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnion.Random;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		35D18AB421152EB5008EF4C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -268,57 +308,23 @@
 			};
 			name = Release;
 		};
-		35D18AB721152EB5008EF4C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = es01/es01.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = es01/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dnion.es01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		35D18AB821152EB5008EF4C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = es01/es01.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = es01/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dnion.es01;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35D18AA021152EB5008EF4C3 /* Build configuration list for PBXProject "es01" */ = {
+		358DF9C3211578EA00A9DB3A /* Build configuration list for PBXNativeTarget "Random" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35D18AB421152EB5008EF4C3 /* Debug */,
-				35D18AB521152EB5008EF4C3 /* Release */,
+				358DF9C4211578EA00A9DB3A /* Debug */,
+				358DF9C5211578EA00A9DB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35D18AB621152EB5008EF4C3 /* Build configuration list for PBXNativeTarget "es01" */ = {
+		35D18AA021152EB5008EF4C3 /* Build configuration list for PBXProject "Random" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35D18AB721152EB5008EF4C3 /* Debug */,
-				35D18AB821152EB5008EF4C3 /* Release */,
+				35D18AB421152EB5008EF4C3 /* Debug */,
+				35D18AB521152EB5008EF4C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
